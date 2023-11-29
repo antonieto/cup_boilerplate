@@ -1,0 +1,16 @@
+// CUP Specification for a simple calculator
+import java_cup.runtime.*;
+
+parser code {:
+  public parser (java.io.Reader input) {
+    super(new Scanner(input));
+  }
+:};
+
+// Terminal symbols
+
+// Non terminals
+
+// Precedences
+
+// Grammar specification
